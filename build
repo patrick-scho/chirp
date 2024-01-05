@@ -1,0 +1,2 @@
+clang chirp.cpp -o chirp.so -shared -I /mnt/hdd/dev/ext/lmdb/ -I ../main ../main/http.c mdb.o midl.o -pthread -lsupc++
+# clang -c /mnt/hdd/dev/ext/lmdb/{mdb,midl}.c -Os
